@@ -5,14 +5,14 @@ characters = list(string.ascii_lowercase + string.digits)
 
 
 def passgen():
-    lenght = input('Enter password lenght: ')
+    length = input('Enter password length: ')
 
-    if not lenght.isdigit():
+    if not length.isdigit():
         print('Use digits only')
         passgen()
     else:
         password = []
-        for _ in range(int(lenght)):
+        for _ in range(int(length)):
             password.append(random.choice(characters))
         random.shuffle(password)
         print('\n' + ''.join(password))
