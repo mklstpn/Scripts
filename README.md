@@ -1,30 +1,30 @@
 # Scripts
- Just storage for scripts used in work
+ Storage of scripts, which was used at work.
 ____
 
 ### add_p_tag 
-* Adding `<p></p>` tag into start and end of each line.
+* Adds `<p></p>` tag into start and end of each line.
 ___
 ### basic_info_from_hosts
-* Collecting basic info from hosts via ssh such as CPU's count, size of 'data' partition, mem, etc.
+* Collects basic hosts info via ssh, such as CPU's count, size of 'data' partition, mem, etc.
 ___
 ### change_text_in_tariffs
-* Changing text in old tariffs, just for example.
+* Changes text in DB. Just for example.
 ___
 ### check_connections
-* Checking connections with hosts in array.
+* Checks connections with hosts, pointed in the array.
 ____
 ### ip_checker
 * Checks is IP available or not.
 ___
 ### links_generator
-* Generating https link to files in dir.
+* Generates https links to files in dir.
 ___
 ### password_generator
-* Generating password using lowercase letters and digits.
+* Generates password, using lowercase letters and digits.
 ___
 ### trelolo
-* Script calculating how many cards was in each column every day and prepare .csv file.
+* Script, which calculating how many cards was in each column every day and prepare .csv file.
 ___
 ### nslookup.sh
-* Simply lookup IP address by DNS name
+* Script check which IP address according to DNS name
