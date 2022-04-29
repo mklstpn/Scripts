@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "" > success.txt
-echo "" > failed.txt
+echo "" > success.txt > failed.txt
 
 array=$(cat link_list.txt) # every link on new line
 
