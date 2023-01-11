@@ -8,15 +8,9 @@ RUN pip install -r requirements.txt
 
 RUN adduser --disabled-password nonroot
 
-RUN mkdir /app2/
-
-COPY . /app2/
-
-RUN chown -R nonroot:nonroot /app2
+RUN chown -R nonroot:nonroot /app
 
 USER nonroot
-
-RUN mkdir /app2/logs
 
 EXPOSE 8000
 
